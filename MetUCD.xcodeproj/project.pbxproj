@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A7691B72B22184300FDE3CA /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7691B62B22184300FDE3CA /* WeatherViewModel.swift */; };
+		9AF890FA2B0FB29500C0744C /* MetUCDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF890F92B0FB29500C0744C /* MetUCDApp.swift */; };
+		9AF890FC2B0FB29500C0744C /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF890FB2B0FB29500C0744C /* WeatherDataModel.swift */; };
+		9AF890FE2B0FB29600C0744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF890FD2B0FB29600C0744C /* Assets.xcassets */; };
+		9AF891012B0FB29600C0744C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF891002B0FB29600C0744C /* Preview Assets.xcassets */; };
+		9AF891032B0FB29600C0744C /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF891022B0FB29600C0744C /* WeatherView.swift */; };
+		9AF891062B0FB29600C0744C /* MetUCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AF891042B0FB29600C0744C /* MetUCD.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AF8910C2B0FB29700C0744C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF890EE2B0FB29500C0744C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF890F52B0FB29500C0744C;
+			remoteInfo = MetUCD;
+		};
+		9AF891162B0FB29700C0744C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF890EE2B0FB29500C0744C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF890F52B0FB29500C0744C;
+			remoteInfo = MetUCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A7691B62B22184300FDE3CA /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		9AF890F62B0FB29500C0744C /* MetUCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetUCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF890F92B0FB29500C0744C /* MetUCDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetUCDApp.swift; sourceTree = "<group>"; };
+		9AF890FB2B0FB29500C0744C /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		9AF890FD2B0FB29600C0744C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AF891002B0FB29600C0744C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AF891022B0FB29600C0744C /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		9AF891052B0FB29600C0744C /* MetUCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MetUCD.xcdatamodel; sourceTree = "<group>"; };
+		9AF8910B2B0FB29700C0744C /* MetUCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetUCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF891152B0FB29700C0744C /* MetUCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetUCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF890F32B0FB29500C0744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF891082B0FB29700C0744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF891122B0FB29700C0744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AF890ED2B0FB29500C0744C = {
+			isa = PBXGroup;
+			children = (
+				9AF890F82B0FB29500C0744C /* MetUCD */,
+				9AF890F72B0FB29500C0744C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF890F72B0FB29500C0744C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF890F62B0FB29500C0744C /* MetUCD.app */,
+				9AF8910B2B0FB29700C0744C /* MetUCDTests.xctest */,
+				9AF891152B0FB29700C0744C /* MetUCDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF890F82B0FB29500C0744C /* MetUCD */ = {
+			isa = PBXGroup;
+			children = (
+				9AF890F92B0FB29500C0744C /* MetUCDApp.swift */,
+				9AF890FB2B0FB29500C0744C /* WeatherDataModel.swift */,
+				9A7691B62B22184300FDE3CA /* WeatherViewModel.swift */,
+				9AF891022B0FB29600C0744C /* WeatherView.swift */,
+				9AF890FD2B0FB29600C0744C /* Assets.xcassets */,
+				9AF891042B0FB29600C0744C /* MetUCD.xcdatamodeld */,
+				9AF890FF2B0FB29600C0744C /* Preview Content */,
+			);
+			path = MetUCD;
+			sourceTree = "<group>";
+		};
+		9AF890FF2B0FB29600C0744C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AF891002B0FB29600C0744C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF890F52B0FB29500C0744C /* MetUCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF8911F2B0FB29700C0744C /* Build configuration list for PBXNativeTarget "MetUCD" */;
+			buildPhases = (
+				9AF890F22B0FB29500C0744C /* Sources */,
+				9AF890F32B0FB29500C0744C /* Frameworks */,
+				9AF890F42B0FB29500C0744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetUCD;
+			productName = MetUCD;
+			productReference = 9AF890F62B0FB29500C0744C /* MetUCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AF8910A2B0FB29700C0744C /* MetUCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF891222B0FB29700C0744C /* Build configuration list for PBXNativeTarget "MetUCDTests" */;
+			buildPhases = (
+				9AF891072B0FB29700C0744C /* Sources */,
+				9AF891082B0FB29700C0744C /* Frameworks */,
+				9AF891092B0FB29700C0744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF8910D2B0FB29700C0744C /* PBXTargetDependency */,
+			);
+			name = MetUCDTests;
+			productName = MetUCDTests;
+			productReference = 9AF8910B2B0FB29700C0744C /* MetUCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AF891142B0FB29700C0744C /* MetUCDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF891252B0FB29700C0744C /* Build configuration list for PBXNativeTarget "MetUCDUITests" */;
+			buildPhases = (
+				9AF891112B0FB29700C0744C /* Sources */,
+				9AF891122B0FB29700C0744C /* Frameworks */,
+				9AF891132B0FB29700C0744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF891172B0FB29700C0744C /* PBXTargetDependency */,
+			);
+			name = MetUCDUITests;
+			productName = MetUCDUITests;
+			productReference = 9AF891152B0FB29700C0744C /* MetUCDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF890EE2B0FB29500C0744C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9AF890F52B0FB29500C0744C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					9AF8910A2B0FB29700C0744C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9AF890F52B0FB29500C0744C;
+					};
+					9AF891142B0FB29700C0744C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9AF890F52B0FB29500C0744C;
+					};
+				};
+			};
+			buildConfigurationList = 9AF890F12B0FB29500C0744C /* Build configuration list for PBXProject "MetUCD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF890ED2B0FB29500C0744C;
+			productRefGroup = 9AF890F72B0FB29500C0744C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF890F52B0FB29500C0744C /* MetUCD */,
+				9AF8910A2B0FB29700C0744C /* MetUCDTests */,
+				9AF891142B0FB29700C0744C /* MetUCDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF890F42B0FB29500C0744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF891012B0FB29600C0744C /* Preview Assets.xcassets in Resources */,
+				9AF890FE2B0FB29600C0744C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF891092B0FB29700C0744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF891132B0FB29700C0744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF890F22B0FB29500C0744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7691B72B22184300FDE3CA /* WeatherViewModel.swift in Sources */,
+				9AF891032B0FB29600C0744C /* WeatherView.swift in Sources */,
+				9AF891062B0FB29600C0744C /* MetUCD.xcdatamodeld in Sources */,
+				9AF890FC2B0FB29500C0744C /* WeatherDataModel.swift in Sources */,
+				9AF890FA2B0FB29500C0744C /* MetUCDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF891072B0FB29700C0744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF891112B0FB29700C0744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AF8910D2B0FB29700C0744C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF890F52B0FB29500C0744C /* MetUCD */;
+			targetProxy = 9AF8910C2B0FB29700C0744C /* PBXContainerItemProxy */;
+		};
+		9AF891172B0FB29700C0744C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF890F52B0FB29500C0744C /* MetUCD */;
+			targetProxy = 9AF891162B0FB29700C0744C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AF8911D2B0FB29700C0744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AF8911E2B0FB29700C0744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF891202B0FB29700C0744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetUCD/Preview Content\"";
+				DEVELOPMENT_TEAM = 429C9S5C8G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205454.MetUCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF891212B0FB29700C0744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetUCD/Preview Content\"";
+				DEVELOPMENT_TEAM = 429C9S5C8G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205454.MetUCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AF891232B0FB29700C0744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 429C9S5C8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205454.MetUCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetUCD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetUCD";
+			};
+			name = Debug;
+		};
+		9AF891242B0FB29700C0744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 429C9S5C8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205454.MetUCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetUCD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetUCD";
+			};
+			name = Release;
+		};
+		9AF891262B0FB29700C0744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 429C9S5C8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205454.MetUCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetUCD;
+			};
+			name = Debug;
+		};
+		9AF891272B0FB29700C0744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 429C9S5C8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205454.MetUCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetUCD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF890F12B0FB29500C0744C /* Build configuration list for PBXProject "MetUCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF8911D2B0FB29700C0744C /* Debug */,
+				9AF8911E2B0FB29700C0744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF8911F2B0FB29700C0744C /* Build configuration list for PBXNativeTarget "MetUCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF891202B0FB29700C0744C /* Debug */,
+				9AF891212B0FB29700C0744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF891222B0FB29700C0744C /* Build configuration list for PBXNativeTarget "MetUCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF891232B0FB29700C0744C /* Debug */,
+				9AF891242B0FB29700C0744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF891252B0FB29700C0744C /* Build configuration list for PBXNativeTarget "MetUCDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF891262B0FB29700C0744C /* Debug */,
+				9AF891272B0FB29700C0744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AF891042B0FB29600C0744C /* MetUCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AF891052B0FB29600C0744C /* MetUCD.xcdatamodel */,
+			);
+			currentVersion = 9AF891052B0FB29600C0744C /* MetUCD.xcdatamodel */;
+			path = MetUCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9AF890EE2B0FB29500C0744C /* Project object */;
+}
